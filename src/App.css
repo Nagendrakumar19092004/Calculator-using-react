@@ -1,0 +1,47 @@
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+.output{
+  outline: none;
+  border: none;
+  width: 320px;
+  height: 70px;
+  font-size: 32px;
+  padding:2px 10px;
+  background-color: #333333;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  color: white;
+  text-align: right;
+}  
+
+button{
+  height: 70px;
+  width:  85px;
+  border-top: 1px solid #666;
+  border-right: 1px solid #666;
+  
+}
+
+.operator{
+  border-right: none;
+  background-color: orange;
+  color: #fff;
+
+}
+.funkey{
+  background-color: #c9c8cc;
+}
+.digit:hover{
+  background-color: #d9d9;
+}
+.operator:hover{
+  background-color: rgb(119, 119, 35);
+}
+.funkey:hover{
+  background-color: orange;
+}
